@@ -16,8 +16,8 @@ function play() {
     var jogada2_texto = jogada2.options[jogada2.selectedIndex].text
     var jg2_n = jogada2.options[jogada2.selectedIndex].value
 
-    var player1 = "ANA"
-    var player2 = "Erika"
+    var player1 = "Player1"
+    var player2 = "Player2"
     if (jg1_n == jg2_n){ 
         alert('EMPATOU !')
     }
